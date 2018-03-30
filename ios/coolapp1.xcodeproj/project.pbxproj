@@ -42,6 +42,13 @@
 		7ED1E15764C8474E9F1C8DEB /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B14B134A47204871943D05E4 /* SystemConfiguration.framework */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
 		ADBDB9381DFEBF1600ED6528 /* libRCTBlob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADBDB9271DFEBF0700ED6528 /* libRCTBlob.a */; };
+		DD1FBD09206E9605004CBE72 /* GoogleUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD1FBD02206E9605004CBE72 /* GoogleUtilities.framework */; };
+		DD1FBD0A206E9605004CBE72 /* GoogleAuthUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD1FBD03206E9605004CBE72 /* GoogleAuthUtilities.framework */; };
+		DD1FBD0B206E9605004CBE72 /* GoogleAppUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD1FBD04206E9605004CBE72 /* GoogleAppUtilities.framework */; };
+		DD1FBD0C206E9605004CBE72 /* GoogleSymbolUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD1FBD05206E9605004CBE72 /* GoogleSymbolUtilities.framework */; };
+		DD1FBD0D206E9605004CBE72 /* GoogleSignIn.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DD1FBD06206E9605004CBE72 /* GoogleSignIn.bundle */; };
+		DD1FBD0E206E9605004CBE72 /* GoogleNetworkingUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD1FBD07206E9605004CBE72 /* GoogleNetworkingUtilities.framework */; };
+		DD1FBD0F206E9605004CBE72 /* GoogleSignIn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD1FBD08206E9605004CBE72 /* GoogleSignIn.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -359,6 +366,13 @@
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
 		ADBDB91F1DFEBF0600ED6528 /* RCTBlob.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTBlob.xcodeproj; path = "../node_modules/react-native/Libraries/Blob/RCTBlob.xcodeproj"; sourceTree = "<group>"; };
 		B14B134A47204871943D05E4 /* SystemConfiguration.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		DD1FBD02206E9605004CBE72 /* GoogleUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleUtilities.framework; sourceTree = "<group>"; };
+		DD1FBD03206E9605004CBE72 /* GoogleAuthUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleAuthUtilities.framework; sourceTree = "<group>"; };
+		DD1FBD04206E9605004CBE72 /* GoogleAppUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleAppUtilities.framework; sourceTree = "<group>"; };
+		DD1FBD05206E9605004CBE72 /* GoogleSymbolUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleSymbolUtilities.framework; sourceTree = "<group>"; };
+		DD1FBD06206E9605004CBE72 /* GoogleSignIn.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = GoogleSignIn.bundle; sourceTree = "<group>"; };
+		DD1FBD07206E9605004CBE72 /* GoogleNetworkingUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleNetworkingUtilities.framework; sourceTree = "<group>"; };
+		DD1FBD08206E9605004CBE72 /* GoogleSignIn.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleSignIn.framework; sourceTree = "<group>"; };
 		E3A04C656EC94D91A6AF96CF /* RNGoogleSignin.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RNGoogleSignin.xcodeproj; path = "../node_modules/react-native-google-signin/ios/RNGoogleSignin.xcodeproj"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -379,7 +393,12 @@
 				5E9157361DD0AC6A00FF2AA8 /* libRCTAnimation.a in Frameworks */,
 				146834051AC3E58100842450 /* libReact.a in Frameworks */,
 				5E9157361DD0AC6A00FF2AA8 /* libRCTAnimation.a in Frameworks */,
+				DD1FBD0C206E9605004CBE72 /* GoogleSymbolUtilities.framework in Frameworks */,
+				DD1FBD0A206E9605004CBE72 /* GoogleAuthUtilities.framework in Frameworks */,
 				00C302E51ABCBA2D00DB3ED1 /* libRCTActionSheet.a in Frameworks */,
+				DD1FBD0F206E9605004CBE72 /* GoogleSignIn.framework in Frameworks */,
+				DD1FBD09206E9605004CBE72 /* GoogleUtilities.framework in Frameworks */,
+				DD1FBD0E206E9605004CBE72 /* GoogleNetworkingUtilities.framework in Frameworks */,
 				00C302E71ABCBA2D00DB3ED1 /* libRCTGeolocation.a in Frameworks */,
 				00C302E81ABCBA2D00DB3ED1 /* libRCTImage.a in Frameworks */,
 				133E29F31AD74F7200F7D852 /* libRCTLinking.a in Frameworks */,
@@ -391,6 +410,7 @@
 				175FBC910456482D86B4A069 /* libRNGoogleSignin.a in Frameworks */,
 				1D5F67DF0BB54E54AFE97F8B /* libz.tbd in Frameworks */,
 				175253A95D1C43B4BD299020 /* SafariServices.framework in Frameworks */,
+				DD1FBD0B206E9605004CBE72 /* GoogleAppUtilities.framework in Frameworks */,
 				7ED1E15764C8474E9F1C8DEB /* SystemConfiguration.framework in Frameworks */,
 				419E04AD1F7E45958FAE0A7C /* AddressBook.framework in Frameworks */,
 			);
@@ -599,6 +619,7 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				DD1FBD01206E9605004CBE72 /* GoogleSdk */,
 				13B07FAE1A68108700A75B9A /* coolapp1 */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* coolapp1Tests */,
@@ -645,6 +666,21 @@
 				DD1FBCB1206E93B3004CBE72 /* libRNGoogleSignin.a */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		DD1FBD01206E9605004CBE72 /* GoogleSdk */ = {
+			isa = PBXGroup;
+			children = (
+				DD1FBD02206E9605004CBE72 /* GoogleUtilities.framework */,
+				DD1FBD03206E9605004CBE72 /* GoogleAuthUtilities.framework */,
+				DD1FBD04206E9605004CBE72 /* GoogleAppUtilities.framework */,
+				DD1FBD05206E9605004CBE72 /* GoogleSymbolUtilities.framework */,
+				DD1FBD06206E9605004CBE72 /* GoogleSignIn.bundle */,
+				DD1FBD07206E9605004CBE72 /* GoogleNetworkingUtilities.framework */,
+				DD1FBD08206E9605004CBE72 /* GoogleSignIn.framework */,
+			);
+			name = GoogleSdk;
+			path = "../node_modules/react-native-google-signin/ios/GoogleSdk";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1103,6 +1139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				DD1FBD0D206E9605004CBE72 /* GoogleSignIn.bundle in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1277,6 +1314,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/react-native-google-signin/ios/GoogleSdk",
+				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-google-signin/ios/RNGoogleSignin/**",
@@ -1298,6 +1339,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/react-native-google-signin/ios/GoogleSdk",
+				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-google-signin/ios/RNGoogleSignin/**",
